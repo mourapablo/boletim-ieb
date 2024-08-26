@@ -1,0 +1,61 @@
+.title-text{
+    background-color: rgb(234, 220, 220);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.title-text h1{
+font-size: 25px;
+    
+}
+.title-text h3{
+    margin-top: 0;
+    font-size: 23px;
+}
+
+.hinos p{
+    font-size: 23px;
+    text-indent: 20px;
+}
+
+.oracao h2{
+    font-size: 35px;
+    text-align: center;
+}
+.texto-vermelho {
+    color: red; /* Cor vermelha */
+  }
+  
+  .texto-azul {
+    color: rgb(0, 0, 110); /* Cor azul */
+  }
+  .texto-black{
+    color: black;
+  }
+
+  .leitura{
+    color: rgb(4, 110, 149);
+    font-size: 15px;
+  }
+  .leitura span{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .title-orange{
+    background-color: orange;
+    
+  }
+
+  .title-orange h1{
+    text-align: center;
+  }
+
+  .title-green-light{
+    background-color: rgb(205, 212, 14);
+  }
+  .title-green-light h1{
+    text-align: center;
+  }

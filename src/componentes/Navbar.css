@@ -1,0 +1,57 @@
+.home {
+    background-color: rgb(220, 230, 234);
+    height: 100%;
+    color: blue;
+    display: flex;
+    flex-direction: column; /* Mudando para coluna para telas menores */
+    align-items: center; /* Centraliza os itens */
+}
+
+.home h3 {
+    color: black;
+}
+
+.navbar-image {
+    width: 8.81vw; /* Tamanho convertido para vw */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-top: 10px;
+}
+
+.navbar-text {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    margin-right: 20px; /* Ajustado para telas menores */
+    margin-left: 20px; /* Ajustado para telas menores */
+}
+
+.navbar-text h3 {
+    margin-top: 0;
+    font-size: 2vw; /* Tamanho relativo para telas menores */
+}
+
+.navbar-text h2 {
+    font-size: 3vw; /* Tamanho relativo para telas menores */
+    margin-top: 0px;
+}
+
+/* Media query para telas maiores */
+@media (min-width: 768px) {
+    .home {
+        flex-direction: row; /* Retorna ao layout em linha para telas maiores */
+    }
+
+    .navbar-text {
+        margin-right: 350px;
+        margin-left: 300px;
+    }
+
+    .navbar-text h3 {
+        font-size: 25px; /* Tamanho fixo para telas maiores */
+    }
+
+    .navbar-text h2 {
+        font-size: 35px; /* Tamanho fixo para telas maiores */
+    }
+}

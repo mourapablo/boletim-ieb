@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    padding: 10px;
+}
+
+
+.instruction{
+    display: flex;
+    font-size: 20px;
+}
+
+.instruction p{
+    display: flex;
+}
+
+.instruction-2{
+    display: flex;
+    justify-content: space-between;
+    color: blue;
+    font-size: 20px;
+}
